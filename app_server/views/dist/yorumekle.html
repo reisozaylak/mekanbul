@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="widht=device-widht, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+  </head>
+  <body>
+    <div class="navbar-default navbar navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header"><a class="navbar-brand" />Mekanbul</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav">
+            <li><a href="/hakkinda">Hakkında  </a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row page-header">
+        <div class="col-lg-12">
+          <h1>Starbucks'a yorum yap</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <form class="form-horizontal" action="/mekan" method="get" role="form" id="yorumekle">
+            <div class="form-group">
+              <label class="col-xs-10 col-sm-2 control-label" for="adsoyad">İsim </label>
+              <div class="col xs-12 col-sm-10">
+                <input class="form-control" id="name" name="adsoyad">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-xs-10 col-sm-2 control-label" for="puan">Puan </label>
+              <div class="col-xs-12 col-sm-2">
+                <select class="form-control input-sm" id="rating" name="puan">
+                  <option>5</option>
+                  <option>4</option>
+                  <option>3</option>
+                  <option>2</option>
+                  <option>1</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-sm-12 control-label" for="yorum">Yorum</label>
+              <div class="col-sm-10">
+                <textarea class="form-control" id="review" name="yorum" rows="5"></textarea>
+              </div>
+            </div>
+          </form>
+          <button class="btn btn-default pull-right">Yorumu Ekle</button>
+        </div>
+        <div class="col-xs-12 col-md-4"></div>
+      </div>
+      <footer>
+        <div class="col-12"><small>&copy; Reis Özaylak 2022</small></div>
+      </footer>
+    </div>
+  </body>
+</html>
+<script src="javascripts/jquery-3.6.1.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
