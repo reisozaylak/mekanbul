@@ -13,6 +13,11 @@
 ![](Pictures/mekan_ve_yorum_getirme.png)
 
 
+*****  Thunder Client Test  ******
+
+![](Pictures/thunder_client_run_all.png)
+
 *****  API Test  ******
 
 ![](Pictures/npm%20run%20test.png)
+
